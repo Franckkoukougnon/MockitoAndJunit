@@ -1,11 +1,14 @@
 package com.tuto.mockito.entity;
 
 
+import com.tuto.mockito.enums.Sexe;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+
+
 
 import java.time.LocalDate;
 
@@ -37,5 +40,7 @@ public class Client {
 
     @Column(nullable = false)
     private boolean is_active = true; // Actif par défaut
+
+
 }
 
